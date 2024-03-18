@@ -3,8 +3,8 @@ import "./loginWithPassword.css";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
-// const host = "http://localhost:5000";
-const host = "https://evernote-backend-n9aq.onrender.com";
+const host = "http://localhost:5000";
+// const host = "https://evernote-backend-n9aq.onrender.com";
 
 const LoginWithPassword = () => {
   const [user, setUser] = useState({ email: "", password: "" });

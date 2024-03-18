@@ -3,8 +3,8 @@ import "./register.css";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
-// const host = "http://localhost:5000";
-const host = "https://evernote-backend-n9aq.onrender.com";
+const host = "http://localhost:5000";
+// const host = "https://evernote-backend-n9aq.onrender.com";
 
 function Register() {
   const [user, setUser] = useState({ name: "", email: "", password: "" });
