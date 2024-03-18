@@ -3,8 +3,8 @@ import "./registerOtp.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
-const host = "http://localhost:5000";
-// const host = "https://evernote-backend-n9aq.onrender.com";
+// const host = "http://localhost:5000";
+const host = "https://evernote-backend-n9aq.onrender.com";
 
 const RegisterOtp = (e) => {
   const [otp, setOtp] = useState("");
